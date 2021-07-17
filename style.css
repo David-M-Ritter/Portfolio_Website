@@ -60,7 +60,7 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 150vh;
+  height: 100vh;
   font-size: 6vw;
   scroll-snap-align: start;
 }
