@@ -56,15 +56,26 @@ nav {
 .item {
   border-bottom: 0px solid white;
   color: white;
-  background: tomato;
+  background: darkslategray;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
   font-size: 6vw;
-  scroll-snap-align: start;
+  scroll-snap-align: end;
+  text-align: center;
 }
 
 .item:nth-child(odd) {
   background: black;
+}
+
+.item img {
+  border-radius: 100%;
+  width: 20vh;
+  height: 20vh;
+  object-fit: cover;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
 }
