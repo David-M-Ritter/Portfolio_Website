@@ -65,7 +65,3 @@ nav {
   scroll-snap-align: end;
   text-align: center;
 }
-
-.item:nth-child(odd) {
-  background: black;
-}
