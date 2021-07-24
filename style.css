@@ -52,16 +52,3 @@ nav {
   overflow: scroll;
   scroll-snap-type: y mandatory;
 }
-
-.item {
-  border-bottom: 0px solid white;
-  color: white;
-  background: darkslategray;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  font-size: 6vw;
-  scroll-snap-align: end;
-  text-align: center;
-}
